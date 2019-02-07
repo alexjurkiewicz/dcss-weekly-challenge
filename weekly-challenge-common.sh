@@ -1,0 +1,5 @@
+CRAWL="/var/dcss/builds/dcss-experimental-weekly-challenge/bin/dcss"
+WEEKLY_CHALLENGE_PATH="/tmp/weekly-challenge.cs"
+WEEKLY_CHALLENGE_SPECIES="/tmp/weekly-challenge-species"
+WEEKLY_CHALLENGE_BACKGROUND="/tmp/weekly-challenge-background"
+SAVE_BASE="/var/dcss/gamedata/dcss-experimental-weekly-challenge/save/"
