@@ -1,0 +1,17 @@
+[[games]]
+id = "dcss-web-weekly-challenge"
+name = "DCSS Experimental - Weekly Challenge"
+version = "weekly-challenge (experimental)"
+mode = "Dungeon Crawl"
+crawl_binary = "/var/dcss/weekly-challenge-play.sh"
+inprogress_path = "/tmp/inprogress-dcss-experimental-weekly-challenge/"
+rcfile_path = "/var/dcss/gamedata/dcss-trunk/rc-files/"
+socket_path = "/tmp/dcss-sockets/"
+morgue_path = "/var/dcss/gamedata/dcss/morgue/%n/"
+client_path = "/var/dcss/builds/dcss-experimental-weekly-challenge/web/"
+macro_path = "/var/dcss/gamedata/dcss-trunk/rc-files/"
+dir_path = "/var/dcss/gamedata/dcss-experimental-weekly-challenge/save/"
+env_lang = "en_US.UTF8"
+#ttyrec_path = "/dev/null"
+send_json_options = true
+options = [ "-extra-opt-first", "travel_delay=20", "-extra-opt-first", "rest_delay=0", "-seed", "1234" ]
